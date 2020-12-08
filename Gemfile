@@ -14,6 +14,11 @@ gem 'sprockets', '< 4'
 gem 'sassc-rails'
 
 gem 'faker'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'google-api-client'#, :require => 'google/api_client'
+gem 'twilio-ruby'
+gem 'json'
 
 group :development do
   gem 'listen', '~> 3.2'
