@@ -14,7 +14,8 @@ gem 'sprockets', '< 4'
 gem 'sassc-rails'
 
 gem 'faker'
-
+gem 'google-api-client', require: 'google/apis/calendar_v3'
+gem 'omniauth-google-oauth2'
 group :development do
   gem 'listen', '~> 3.2'
   gem 'spring-watcher-listen', '~> 2.0.0'
